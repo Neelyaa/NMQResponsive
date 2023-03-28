@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>No Media Queries</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Éléments Responsive sans Media Queries
+            <span class="engtitle">
+                Responsive elements without Media Queries
+            </span>
+        </h1>
+    </header>
+
+    <main>
+
+        <h2>Avec repeat(auto-fit)<span class="engtitle">With repeat(auto-fit)</span></h2>
+
+        <p class="subtitle">
+            Une <span>Div</span> contenant les cards avec <span>ces propriétés CSS</span> :
+            <span class="engsubtitle"> A <span>Div</span> contains the cards with <span>this CSS property </span>
+                :</span>
+            <img src="/img/CssExemple.png" class="codeimg" alt="exemple auto-fit css">
+        </p>
+
+
+
+        <div class="wrapper-grid">
+
+            <div class="container">
+                <div class="banner-img"></div>
+                <img src="https://cdn.pixabay.com/photo/2015/10/07/15/33/guy-976333_960_720.jpg" alt="profile image"
+                    class="profile-img">
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iste aliquam
+                    ipsam sapiente quas esse aut deserunt atque. Sequi, possimus.</p>
+            </div>
+
+            <div class="container">
+                <div class="banner-img"></div>
+                <img src="https://cdn.pixabay.com/photo/2015/10/07/15/33/guy-976333_960_720.jpg" alt="profile image"
+                    class="profile-img">
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iste aliquam
+                    ipsam sapiente quas esse aut deserunt atque. Sequi, possimus.</p>
+            </div>
+
+            <div class="container">
+                <div class="banner-img"></div>
+                <img src="https://cdn.pixabay.com/photo/2015/10/07/15/33/guy-976333_960_720.jpg" alt="profile image"
+                    class="profile-img">
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iste aliquam
+                    ipsam sapiente quas esse aut deserunt atque. Sequi, possimus.</p>
+            </div>
+
+            <div class="container">
+                <div class="banner-img"></div>
+                <img src="https://cdn.pixabay.com/photo/2015/10/07/15/33/guy-976333_960_720.jpg" alt="profile image"
+                    class="profile-img">
+                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem iste aliquam
+                    ipsam sapiente quas esse aut deserunt atque. Sequi, possimus.</p>
+            </div>
+
+        </div>
+
+        <h3> Avec min(), max() et clamp()<span class="engtitle">With min(), max() and clamp()</span></h3>
+
+        <div class="divimg">
+            <img src="/img/CssMaxExemple.png" class="codeimg" alt="exemple max css">
+            <img src="/img/CssClampExemple.png" class="codeimg" alr="exemple clamp css">
+        </div>
+
+        <div class="content">
+            <p class="ptitle"> Augmentez ou diminuez le texte </p>
+
+            <p class="desc">Il est important de mentionner que <span>SCSS peut être confus s'il rencontre une fonction
+                    CSS min ou max</span> car
+                SASS a des fonctions conflictuelles. Par exemple min(200px, 80%) provoquera une erreur d'unités SASS.
+                <span> L'astuce consiste à capitaliser : Min et Max afin qu'ils soient ignorés par SASS</span> (CSS est
+                insensible à
+                la casse).
+            </p>
+
+            <p class="ptitle">  Increase or decrease text </p>
+
+            <p class="engdesc">
+                Important to mention that <span>SCSS can get confused if it encounters a CSS min or max function</span>
+                because SASS
+                has conflicting functions. For example min(200px, 80%) will cause a SASS units error. <span>The trick is
+                    to
+                    capitalize: Min and Max so they are ignored by SASS</span> (CSS is case insensitive).
+            </p>
+        </div>
+
+        <h4> En combinant flex-wrap, flex-basis et flex-grow <span class="engtitle">By combining flex-wrap, flex-basis
+                and flex-grow</span></h4>
+
+        <p class="subtitle">
+            Une <span>Div</span> contenant les cards avec <span>ces propriétés CSS</span> :
+            <span class="engsubtitle"> A <span>Div</span> contains the cards with <span>this CSS property </span>
+                :</span>
+            <img src="/img/CssFlexExemple.png" class="codeimg" alt="exemple flex basis css">
+        </p>
+
+        <div class="columns">
+            <div class="card">
+                <p class="cardnumber"><span>Moove</span></p>
+                <p class="cardtxt">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae minus explicabo obcaecati. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="card">
+                <p class="cardnumber"><span>Me</span></p>
+                <p class="cardtxt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus explicabo
+                    obcaecati</p>
+            </div>
+            <div class="card">
+                <p class="cardnumber"><span>And see !</span></p>
+                <p class="cardtxt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae minus explicabo
+                    obcaecati</p>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
