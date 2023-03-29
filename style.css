@@ -114,7 +114,7 @@ p>span {
 
 .ptitle {
     color: blue;
-    font-size: clamp(1.5rem, 3vw, 2.3rem);
+    font-size: clamp(1.4rem, 3vw, 2.3rem);
     margin-bottom: 1rem;
 }
 
